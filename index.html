@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" href="style.css"> <!-- links the css stylesheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- links the icon library that allows me to use social media icons -->
+  </head>
+  <body>
+    <!-- main container for the card itself -->
+    <div class="card">
+
+        <!-- card is split into two sperate containers: the left and right one -->
+        <div class="left-side">
+          <div class="pfp"> <!-- profile picture -->
+            <img src="pfp.png" alt="">
+          </div>
+          <div class="name">First Last</div> <!-- user's name -->
+          <div class="info"> <!-- some info about the user -->
+            <p>info here</p>
+            <p>more info here</p>
+          </div>
+          <div class="social-media"> <!-- social media icons (that serve as links) -->
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-linkedin"></a>
+            <a href="#" class="fa fa-github"></a>
+            <a href="#" class="fa fa-facebook"></a>
+          </div>
+        </div>
+
+        <!-- right container -->
+        <div class="right-side">
+          <div class="section-title">About me</div> <!-- about me title -->
+          <div class="border"></div> <!-- used as a line divider -->
+          <!-- lorem ipsum placeholder text below -->
+          <div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
+          <div class="button"> <!-- button that allows the user to compose an email adressed to me when the button is clicked -->
+            <a class="one" href="mailto:as14379@nyu.edu" target="_blank">CONTACT ME</a> <!-- class="one" is used to differentiate this link from the others (in this case, the social media icons). otherwise, the css code used for this would also apply to those other links as well -->
+          </div>
+        </div>
+
+    </div>
+
+    <a class="two" href="skills.html" class="next">&#8250;</a> <!-- arrow to go to the next page -->
+
+  </body>
+</html>

@@ -1,0 +1,198 @@
+*{ /* for the entire HTML element */
+  margin: 0;
+  padding: 0;
+  font-family: "monteserrat", sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body { /* style for the body */
+  background: #dd4b39; /* red-ish */
+  font-family: helvetica;
+  height: 100vh;
+  display: flex;
+  /* centers content */
+  align-items: center;
+  justify-content: center;
+}
+
+.card { /* style for all of the card */
+  width: 700px;
+  text-align: center;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow:30px 30px 50px #5e2018; /* created a shadow under the card */
+}
+
+
+.left-side { /* style for the left container */
+  width: 250px;
+  height: 375px;
+  float: left; /* container floats/sticks to the let side of the screen */
+  background: #0f2438;
+  padding: 60px 40px;
+}
+
+.pfp { /* style for the pic div */
+  display: inline-block;
+  padding: 7px;
+  background: linear-gradient(130deg, red, orange); /* creates a linear gradient angled at 130 deg going from red to orange */
+  margin: auto;
+  border-radius: 50%;
+}
+
+.pfp img { /* style for the image itself in the pic div*/
+  display: block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.name { /* style for name */
+  color: white;
+  font-size: 25px;
+  font-weight: 600;
+  margin: 15px 0;
+}
+
+.info { /* syle for info*/
+  color: #dd4b39;
+  font-size: 17px;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+.right-side { /* right container of the card*/
+  width: 450px;
+  height: 375px;
+  float: right; /* this container floats to the right of the card */
+  background: #354054;
+  padding: 60px 40px;
+}
+
+.section-title { /* about me title*/
+  text-align: left;
+  color: white;
+  font-size: 25px;
+  font-weight: 600;
+  margin: 5px 0;
+}
+
+.border { /* line divider */
+  text-align: left;
+  width: 100px;
+  height: 3px;
+  background: #dd4b39;
+}
+
+.description { /* style for description (placeholder text rn)*/
+  color: white;
+  font-size: 17px;
+  margin: 20px 0;
+  text-align: left;
+}
+
+/* a.one is used for only the "contact me" button */
+a.one:link, a.one:visited { /* style for when the button is not being interacted with */
+  color: #dd4b39;
+  border: 2px solid #dd4b39;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+a.one:hover, a.one:active { /* when the button is hovered */
+  background-color: #dd4b39;
+  color: white;
+}
+
+
+
+/* code below is for the social media icons/links */
+.fa {
+  padding: 15px;
+  font-size: 50px;
+  width: 30px;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.fa:hover {
+    opacity: 0.5;
+}
+
+.fa-facebook {
+  color: #dd4b39;
+}
+
+.fa-github {
+  color: #dd4b39;
+}
+
+.fa-linkedin {
+  color: #dd4b39;
+}
+
+.fa-instagram {
+  color: #dd4b39;
+}
+
+
+a.two { /* the class "two" is dedicated to the arrows that allow the user to switch between pages*/
+  color: #0f2438;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 120px;
+  padding: 8px 16px;
+}
+
+a.two:hover { /* arrows become white when hovered over */
+  color: white;
+}
+
+
+.resume-container {
+  width: 700px;
+  height: 375px;
+  background: #0f2438;
+  padding: 60px 40px;
+}
+
+.resume-section { /* style for section titles*/
+  text-align: left;
+  color: #dd4b39;
+  font-size: 25px;
+  font-weight: 600;
+  margin: 5px 0;
+}
+
+.resume-text { /* style for the basic text on this page */
+  color: white;
+  font-size: 15px;
+  text-align: left;
+  margin: 5px 0;
+}
+
+
+.progress { /* light gray bar behind the actual progress bar */
+  width: 100%;
+  height: 8px;
+  background: #354054;
+}
+
+/* red progress bar, size depends on the user's mastery of the skill (the percentage given for p1, p2, and p3)*/
+.progress-bar {
+  height: 8px;
+  background: #dd4b39;
+}
+.p1 {
+  width: 80%
+}
+.p2 {
+  width: 95%
+}
+.p3 {
+  width: 65%
+}
